@@ -15,7 +15,7 @@ export default function Contact() {
         <Mono className="text-xs uppercase text-[#1D4ED8]">// {b.sub}</Mono>
         <h1 className="mt-5 text-5xl font-bold tracking-tight md:text-7xl">{b.title}</h1>
       </section>
-      <section className="mx-auto grid max-w-6xl gap-10 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
+      <section id="book" className="scroll-mt-28 mx-auto grid max-w-6xl gap-10 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
         <BookingForm styles={bookingStyles} />
         <div className="border-2 border-[#101418]">
           {[

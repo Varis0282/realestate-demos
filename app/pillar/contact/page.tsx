@@ -15,7 +15,7 @@ export default function Contact() {
         <h1 className="text-4xl font-black">{b.title}</h1>
         <p className="mx-auto mt-3 max-w-xl px-4 text-teal-100/85">{b.sub}</p>
       </section>
-      <section className="mx-auto grid max-w-7xl gap-8 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
+      <section id="book" className="scroll-mt-28 mx-auto grid max-w-7xl gap-8 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
         <BookingForm styles={bookingStyles} />
         <div className="space-y-4">
           {[

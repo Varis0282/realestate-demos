@@ -53,7 +53,7 @@ export function Nav() {
           ))}
           <Link href="/" className="font-[family-name:var(--font-mono)] text-xs text-[#6B7280] hover:text-[#1D4ED8]">← ALL DEMOS</Link>
           <LangToggle className="border-2 border-[#101418] px-3 py-1 text-xs font-bold hover:bg-[#101418] hover:text-white" />
-          <Link href="/blueprint/contact" className="bg-[#1D4ED8] px-5 py-2.5 text-sm font-bold text-white hover:bg-[#101418]">{t.nav.book}</Link>
+          <Link href="/blueprint/contact#book" className="bg-[#1D4ED8] px-5 py-2.5 text-sm font-bold text-white hover:bg-[#101418]">{t.nav.book}</Link>
         </nav>
         <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu">{open ? <X /> : <Menu />}</button>
       </div>
@@ -140,7 +140,7 @@ export function CTABand() {
         <h2 className="mt-4 max-w-3xl text-3xl font-bold tracking-tight md:text-5xl">{t.sections.ctaTitle}</h2>
         <p className="mt-4 max-w-2xl text-white/70">{t.sections.ctaSub}</p>
         <div className="mt-9 flex flex-wrap gap-3">
-          <Link href="/blueprint/contact" className="bg-[#1D4ED8] px-7 py-4 font-bold text-white hover:bg-white hover:text-[#101418]">{t.hero.cta1}</Link>
+          <Link href="/blueprint/contact#book" className="bg-[#1D4ED8] px-7 py-4 font-bold text-white hover:bg-white hover:text-[#101418]">{t.hero.cta1}</Link>
           <a href={`tel:${inst.phoneRaw}`} className="border-2 border-white px-7 py-3.5 font-bold hover:bg-white hover:text-[#101418]">{t.hero.cta2}</a>
         </div>
       </div>

@@ -38,7 +38,7 @@ export default function Projects() {
                   <span key={h} className="rounded-full border border-[#0F5E63]/25 bg-white px-3 py-1 text-xs font-semibold text-[#0F5E63]">{h}</span>
                 ))}
               </div>
-              <Link href="/pillar/contact" className="mt-7 inline-block rounded-md bg-[#0F5E63] px-6 py-3 font-bold text-white shadow hover:brightness-110">{t.hero.cta1}</Link>
+              <Link href="/pillar/contact#book" className="mt-7 inline-block rounded-md bg-[#0F5E63] px-6 py-3 font-bold text-white shadow hover:brightness-110">{t.hero.cta1}</Link>
             </div>
           </div>
         ))}

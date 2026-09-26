@@ -25,7 +25,7 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-slate-600">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/pillar/contact" className="rounded-md bg-[#0F5E63] px-6 py-3.5 font-bold text-white shadow-lg transition hover:brightness-110">{t.hero.cta1}</Link>
+              <Link href="/pillar/contact#book" className="rounded-md bg-[#0F5E63] px-6 py-3.5 font-bold text-white shadow-lg transition hover:brightness-110">{t.hero.cta1}</Link>
               <a href={`tel:${inst.phoneRaw}`} className="rounded-md border-2 border-[#0F5E63] px-6 py-3 font-bold text-[#0F5E63] transition hover:bg-[#0F5E63]/5">{t.hero.cta2}</a>
             </div>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-600">
@@ -66,7 +66,7 @@ export default function Home() {
                     <p className="text-[11px] uppercase text-slate-400">{t.misc.priceFrom}</p>
                     <p className="font-black text-[#12312F]">{p[lang].priceFrom}</p>
                   </div>
-                  <Link href="/pillar/contact" className="rounded-md bg-[#0F5E63] px-4 py-2 text-sm font-bold text-white transition group-hover:brightness-110">{t.misc.enquire}</Link>
+                  <Link href="/pillar/contact#book" className="rounded-md bg-[#0F5E63] px-4 py-2 text-sm font-bold text-white transition group-hover:brightness-110">{t.misc.enquire}</Link>
                 </div>
               </div>
             </div>

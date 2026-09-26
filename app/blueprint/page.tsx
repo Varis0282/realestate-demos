@@ -23,7 +23,7 @@ export default function Home() {
         <div className="mt-10 grid items-end gap-8 border-t-2 border-[#101418] pt-8 md:grid-cols-[1fr,auto]">
           <p className="max-w-xl leading-relaxed text-[#4B5563]">{t.hero.sub}</p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/blueprint/contact" className="bg-[#1D4ED8] px-7 py-4 font-bold text-white hover:bg-[#101418]">{t.hero.cta1}</Link>
+            <Link href="/blueprint/contact#book" className="bg-[#1D4ED8] px-7 py-4 font-bold text-white hover:bg-[#101418]">{t.hero.cta1}</Link>
             <a href={`tel:${inst.phoneRaw}`} className="border-2 border-[#101418] px-7 py-3.5 font-bold hover:bg-[#101418] hover:text-white">{t.hero.cta2}</a>
           </div>
         </div>

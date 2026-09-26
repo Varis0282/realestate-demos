@@ -26,7 +26,7 @@ export default function Home() {
           {t.hero.sub}
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.3 }} className="mt-9 flex flex-wrap justify-center gap-3">
-          <Link href="/skyline/contact" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-7 py-3.5 font-bold text-[#0B1220] shadow-[0_0_30px_rgba(245,158,11,0.4)] transition hover:shadow-[0_0_44px_rgba(245,158,11,0.6)]">{t.hero.cta1}</Link>
+          <Link href="/skyline/contact#book" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-7 py-3.5 font-bold text-[#0B1220] shadow-[0_0_30px_rgba(245,158,11,0.4)] transition hover:shadow-[0_0_44px_rgba(245,158,11,0.6)]">{t.hero.cta1}</Link>
           <a href={`tel:${inst.phoneRaw}`} className="rounded-full border border-white/20 px-7 py-3.5 font-bold hover:bg-white/10">{t.hero.cta2}</a>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.4 }} className="relative mx-auto mt-12 max-w-5xl">
@@ -61,7 +61,7 @@ export default function Home() {
                   <p className="mt-2 flex items-center gap-1.5 text-sm text-slate-300"><MapPin className="h-4 w-4 text-[#FB7185]" />{p[lang].location}</p>
                   <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4">
                     <p className="font-black text-[#F59E0B]">{p[lang].priceFrom}</p>
-                    <Link href="/skyline/contact" className="text-sm font-bold text-white underline decoration-[#FB7185] underline-offset-4">{t.misc.enquire}</Link>
+                    <Link href="/skyline/contact#book" className="text-sm font-bold text-white underline decoration-[#FB7185] underline-offset-4">{t.misc.enquire}</Link>
                   </div>
                 </div>
               </motion.div>

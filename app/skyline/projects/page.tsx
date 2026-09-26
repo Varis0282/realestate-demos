@@ -49,7 +49,7 @@ export default function Projects() {
                     <span key={h} className="rounded-full border border-[#F59E0B]/30 bg-[#F59E0B]/10 px-3 py-1 text-xs font-semibold text-[#F59E0B]">{h}</span>
                   ))}
                 </div>
-                <Link href="/skyline/contact" className="mt-7 inline-block rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-6 py-3 font-bold text-[#0B1220] shadow-[0_0_24px_rgba(245,158,11,0.35)]">{t.hero.cta1}</Link>
+                <Link href="/skyline/contact#book" className="mt-7 inline-block rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-6 py-3 font-bold text-[#0B1220] shadow-[0_0_24px_rgba(245,158,11,0.35)]">{t.hero.cta1}</Link>
               </div>
             </motion.div>
           </FadeIn>

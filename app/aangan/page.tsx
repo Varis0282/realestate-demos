@@ -28,7 +28,7 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-[#7a6354]">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/aangan/contact" className="rounded-full bg-[#9E3B2F] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-[#9E3B2F]/25 transition hover:scale-105">{t.hero.cta1}</Link>
+              <Link href="/aangan/contact#book" className="rounded-full bg-[#9E3B2F] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-[#9E3B2F]/25 transition hover:scale-105">{t.hero.cta1}</Link>
               <a href={`tel:${inst.phoneRaw}`} className="rounded-full border-2 border-[#6B7F3E] px-7 py-3 font-extrabold text-[#6B7F3E] transition hover:bg-[#6B7F3E]/10">{t.hero.cta2}</a>
             </div>
             <p className="mt-6 text-sm font-bold text-[#6B7F3E]">{t.hero.open}</p>
@@ -63,7 +63,7 @@ export default function Home() {
                 <p className="mt-2 flex items-center gap-1.5 text-sm text-[#7a6354]"><MapPin className="h-4 w-4 text-[#6B7F3E]" />{p[lang].location}</p>
                 <div className="mt-4 flex items-center justify-between border-t-2 border-dashed border-[#E8D9C3] pt-4">
                   <p className="font-black text-[#4A342B]">{p[lang].priceFrom}</p>
-                  <Link href="/aangan/contact" className="rounded-full bg-[#F6E3D5] px-4 py-2 text-sm font-extrabold text-[#9E3B2F] transition hover:bg-[#9E3B2F] hover:text-white">{t.misc.enquire}</Link>
+                  <Link href="/aangan/contact#book" className="rounded-full bg-[#F6E3D5] px-4 py-2 text-sm font-extrabold text-[#9E3B2F] transition hover:bg-[#9E3B2F] hover:text-white">{t.misc.enquire}</Link>
                 </div>
               </div>
             </div>

@@ -48,7 +48,7 @@ export default function Projects() {
                   <span key={h} className="rounded-full bg-[#E9EDDA] px-3.5 py-1.5 text-xs font-extrabold text-[#4c5a2c]">{h}</span>
                 ))}
               </div>
-              <Link href="/aangan/contact" className="mt-7 inline-block rounded-full bg-[#9E3B2F] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-[#9E3B2F]/25 transition hover:scale-105">{t.hero.cta1}</Link>
+              <Link href="/aangan/contact#book" className="mt-7 inline-block rounded-full bg-[#9E3B2F] px-7 py-3.5 font-extrabold text-white shadow-xl shadow-[#9E3B2F]/25 transition hover:scale-105">{t.hero.cta1}</Link>
             </div>
           </div>
         ))}

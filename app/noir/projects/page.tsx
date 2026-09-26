@@ -45,7 +45,7 @@ export default function Projects() {
                   <span key={h} className="border border-[#B87352]/35 px-3.5 py-1.5 text-[11px] uppercase tracking-[0.15em] text-[#B87352]">{h}</span>
                 ))}
               </div>
-              <Link href="/noir/contact" className="mt-8 inline-block bg-[#B87352] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-[#0A0C10] transition hover:brightness-110">{t.hero.cta1}</Link>
+              <Link href="/noir/contact#book" className="mt-8 inline-block bg-[#B87352] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-[#0A0C10] transition hover:brightness-110">{t.hero.cta1}</Link>
             </div>
           </div>
         ))}

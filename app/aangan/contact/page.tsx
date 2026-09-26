@@ -19,7 +19,7 @@ export default function Contact() {
           <p className="mx-auto mt-2 max-w-xl px-4 text-[#7a6354]">{b.sub}</p>
         </div>
       </section>
-      <section className="mx-auto grid max-w-7xl gap-8 px-4 pb-14 lg:grid-cols-[1.2fr,0.8fr]">
+      <section id="book" className="scroll-mt-28 mx-auto grid max-w-7xl gap-8 px-4 pb-14 lg:grid-cols-[1.2fr,0.8fr]">
         <BookingForm styles={bookingStyles} />
         <div className="space-y-4">
           {[

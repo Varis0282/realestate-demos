@@ -15,7 +15,7 @@ export default function Contact() {
         <Eyebrow>{b.sub}</Eyebrow>
         <h1 className="font-[family-name:var(--font-serif)] text-5xl font-medium text-white md:text-6xl">{b.title}</h1>
       </section>
-      <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 lg:grid-cols-[1.2fr,0.8fr]">
+      <section id="book" className="scroll-mt-28 mx-auto grid max-w-7xl gap-10 px-4 py-16 lg:grid-cols-[1.2fr,0.8fr]">
         <BookingForm styles={bookingStyles} />
         <div className="divide-y divide-white/10 border border-white/10">
           {[

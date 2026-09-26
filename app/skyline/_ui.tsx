@@ -85,7 +85,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-slate-400 hover:text-white">← All demos</Link>
           <LangToggle className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold hover:bg-white/20" />
-          <Link href="/skyline/contact" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-4 py-2 text-sm font-bold text-[#0B1220] shadow-[0_0_24px_rgba(245,158,11,0.35)] transition hover:shadow-[0_0_36px_rgba(245,158,11,0.55)]">{t.nav.book}</Link>
+          <Link href="/skyline/contact#book" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-4 py-2 text-sm font-bold text-[#0B1220] shadow-[0_0_24px_rgba(245,158,11,0.35)] transition hover:shadow-[0_0_36px_rgba(245,158,11,0.55)]">{t.nav.book}</Link>
         </nav>
         <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu">{open ? <X /> : <Menu />}</button>
       </div>
@@ -174,7 +174,7 @@ export function CTABand() {
           <h2 className="text-3xl font-bold md:text-4xl">{t.sections.ctaTitle}</h2>
           <p className="mx-auto mt-3 max-w-2xl text-slate-300">{t.sections.ctaSub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link href="/skyline/contact" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-7 py-3.5 font-bold text-[#0B1220] shadow-[0_0_30px_rgba(245,158,11,0.4)] transition hover:shadow-[0_0_44px_rgba(245,158,11,0.6)]">{t.hero.cta1}</Link>
+            <Link href="/skyline/contact#book" className="rounded-full bg-gradient-to-r from-[#F59E0B] to-[#FB7185] px-7 py-3.5 font-bold text-[#0B1220] shadow-[0_0_30px_rgba(245,158,11,0.4)] transition hover:shadow-[0_0_44px_rgba(245,158,11,0.6)]">{t.hero.cta1}</Link>
             <a href={`tel:${inst.phoneRaw}`} className="rounded-full border border-white/25 px-7 py-3.5 font-bold hover:bg-white/10">{t.hero.cta2}</a>
           </div>
         </div>

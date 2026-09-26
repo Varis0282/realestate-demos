@@ -17,7 +17,7 @@ export default function Contact() {
           <p className="mx-auto mt-3 max-w-xl text-slate-400">{b.sub}</p>
         </FadeIn>
       </section>
-      <section className="mx-auto grid max-w-6xl gap-8 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
+      <section id="book" className="scroll-mt-28 mx-auto grid max-w-6xl gap-8 px-4 py-14 lg:grid-cols-[1.2fr,0.8fr]">
         <FadeIn><BookingForm styles={bookingStyles} /></FadeIn>
         <div className="space-y-4">
           {[

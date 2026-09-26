@@ -50,7 +50,7 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href="/pillar/contact" className="rounded-md bg-[#D9A441] px-4 py-2.5 text-sm font-bold text-[#12312F] shadow hover:brightness-105">
+          <Link href="/pillar/contact#book" className="rounded-md bg-[#D9A441] px-4 py-2.5 text-sm font-bold text-[#12312F] shadow hover:brightness-105">
             {t.nav.book}
           </Link>
         </nav>
@@ -61,7 +61,7 @@ export function Nav() {
           {links.map((l) => (
             <Link key={l.href} href={l.href} onClick={() => setOpen(false)} className="block py-2 text-sm font-medium text-slate-700">{l.label}</Link>
           ))}
-          <Link href="/pillar/contact" onClick={() => setOpen(false)} className="mt-2 block rounded-md bg-[#D9A441] px-4 py-2.5 text-center text-sm font-bold text-[#12312F]">{t.nav.book}</Link>
+          <Link href="/pillar/contact#book" onClick={() => setOpen(false)} className="mt-2 block rounded-md bg-[#D9A441] px-4 py-2.5 text-center text-sm font-bold text-[#12312F]">{t.nav.book}</Link>
         </nav>
       )}
     </header>
@@ -133,7 +133,7 @@ export function CTABand() {
         <h2 className="text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-teal-100/85">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Link href="/pillar/contact" className="rounded-md bg-[#D9A441] px-7 py-3.5 font-bold text-[#12312F] shadow-lg hover:brightness-105">{t.hero.cta1}</Link>
+          <Link href="/pillar/contact#book" className="rounded-md bg-[#D9A441] px-7 py-3.5 font-bold text-[#12312F] shadow-lg hover:brightness-105">{t.hero.cta1}</Link>
           <a href={`tel:${inst.phoneRaw}`} className="rounded-md border border-white/40 px-7 py-3.5 font-bold hover:bg-white/10">{t.hero.cta2}</a>
         </div>
       </div>

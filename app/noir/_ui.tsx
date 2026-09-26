@@ -50,7 +50,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-[11px] normal-case tracking-normal text-[#5B626C] hover:text-white">← All demos</Link>
           <LangToggle className="border border-white/20 px-3 py-1 text-[11px] hover:border-[#B87352] hover:text-[#B87352]" />
-          <Link href="/noir/contact" className="border border-[#B87352] px-5 py-2.5 text-[12px] font-semibold text-[#B87352] transition hover:bg-[#B87352] hover:text-[#0A0C10]">{t.nav.book}</Link>
+          <Link href="/noir/contact#book" className="border border-[#B87352] px-5 py-2.5 text-[12px] font-semibold text-[#B87352] transition hover:bg-[#B87352] hover:text-[#0A0C10]">{t.nav.book}</Link>
         </nav>
         <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu">{open ? <X /> : <Menu />}</button>
       </div>
@@ -138,7 +138,7 @@ export function CTABand() {
         <h2 className="font-[family-name:var(--font-serif)] text-4xl font-medium text-white md:text-5xl">{t.sections.ctaTitle}</h2>
         <p className="mx-auto mt-4 max-w-2xl text-[#8B929C]">{t.sections.ctaSub}</p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <Link href="/noir/contact" className="bg-[#B87352] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-[#0A0C10] transition hover:brightness-110">{t.hero.cta1}</Link>
+          <Link href="/noir/contact#book" className="bg-[#B87352] px-8 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-[#0A0C10] transition hover:brightness-110">{t.hero.cta1}</Link>
           <a href={`tel:${inst.phoneRaw}`} className="border border-white/25 px-8 py-4 text-[12px] font-bold uppercase tracking-[0.2em] text-white transition hover:border-[#B87352] hover:text-[#B87352]">{t.hero.cta2}</a>
         </div>
       </div>

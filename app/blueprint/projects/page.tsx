@@ -50,7 +50,7 @@ export default function Projects() {
                     <Mono key={h} className="border-2 border-[#101418] px-3 py-1 text-xs">{h}</Mono>
                   ))}
                 </div>
-                <Link href="/blueprint/contact" className="mt-7 inline-block bg-[#1D4ED8] px-7 py-3.5 font-bold text-white hover:bg-[#101418]">{t.hero.cta1}</Link>
+                <Link href="/blueprint/contact#book" className="mt-7 inline-block bg-[#1D4ED8] px-7 py-3.5 font-bold text-white hover:bg-[#101418]">{t.hero.cta1}</Link>
               </div>
             </div>
           </article>

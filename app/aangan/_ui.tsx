@@ -47,7 +47,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-[#a08b7a] hover:text-[#9E3B2F]">← All demos</Link>
           <LangToggle className="rounded-full border-2 border-[#9E3B2F]/25 px-3.5 py-1 text-sm font-bold text-[#9E3B2F] hover:bg-[#9E3B2F]/5" />
-          <Link href="/aangan/contact" className="rounded-full bg-[#9E3B2F] px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-[#9E3B2F]/25 transition hover:brightness-110">{t.nav.book}</Link>
+          <Link href="/aangan/contact#book" className="rounded-full bg-[#9E3B2F] px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-[#9E3B2F]/25 transition hover:brightness-110">{t.nav.book}</Link>
         </nav>
         <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Menu">{open ? <X /> : <Menu />}</button>
       </div>
@@ -135,7 +135,7 @@ export function CTABand() {
         <h2 className="relative text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="relative mx-auto mt-3 max-w-2xl text-white/85">{t.sections.ctaSub}</p>
         <div className="relative mt-8 flex flex-wrap justify-center gap-3">
-          <Link href="/aangan/contact" className="rounded-full bg-white px-7 py-3.5 font-extrabold text-[#9E3B2F] shadow-xl transition hover:scale-105">{t.hero.cta1}</Link>
+          <Link href="/aangan/contact#book" className="rounded-full bg-white px-7 py-3.5 font-extrabold text-[#9E3B2F] shadow-xl transition hover:scale-105">{t.hero.cta1}</Link>
           <a href={`tel:${inst.phoneRaw}`} className="rounded-full border-2 border-white/50 px-7 py-3 font-bold hover:bg-white/10">{t.hero.cta2}</a>
         </div>
       </div>
